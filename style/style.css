@@ -1,4 +1,73 @@
-body{
-    background: radial-gradient(circle, rgba(212,174,238,1) 0%, rgba(148,200,233,1) 100%);
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(315deg, #8bc6ec 0%, #9599e2 100%) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: l;
 
 }
+
+main{
+  position: relative;
+  height: 100vh;
+  position: relative;
+
+}
+
+  section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 840px;
+    width: 416px;
+    background:url('../imagens/frame-iphone-principal.png') no-repeat;
+    }
+    
+    @media(max-height: 865px){
+      section#telefone{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 636px;
+        width: 315px;
+        background:url('../imagens/frame-iphone-semi-principal.png') no-repeat;
+      }
+    }
+
+    @media(max-height: 650px){
+      section#telefone{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 280px;
+        height: 565px;
+        background:url('../imagens/frame-iphone-tela-iphone5.png') no-repeat;
+      }
+    }
+
+    @media(max-height: 575px){
+      section#telefone{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 230px;
+        height: 465px;
+        background:url('../imagens/frame-iphone-telamenor.png') no-repeat;
+      }
+    }
