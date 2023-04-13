@@ -17,16 +17,12 @@ body {
   /* background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(41,8,70,0.9878326330532213) 100%); */
   background-repeat: no-repeat;
   background-size: cover;
-
-
-  
-
 }
 
 main{
   position: relative;
   height: 100vh;
-  position: relative;
+  
 
 }
 
@@ -87,6 +83,11 @@ main{
         background:url('../imagens/frame-iphone-telamenor.png') no-repeat;
         
       }
+    }
+
+    a#youtube-link{
+      text-decoration: none;
+      
     }
 /*iframe#tela*/
 
@@ -215,6 +216,12 @@ main{
 .all-buttons .youtube:hover .tooltip,
 .all-buttons .youtube:hover .tooltip:before{
   background:#de463b;
+
+}
+
+span{
+  color: rgb(20, 20, 20);
+
 }
 
 /*1*/
