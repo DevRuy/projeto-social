@@ -34,6 +34,7 @@ main{
     height: 840px;
     width: 416px;
     background:url('../imagens/frame-iphone-principal.png') no-repeat;
+    z-index: 11;
     }
     
     @media(max-height: 865px){
@@ -45,6 +46,7 @@ main{
         height: 636px;
         width: 315px;
         background:url('../imagens/frame-iphone-semi-principal.png') no-repeat;
+        z-index: 11;
       }
     }
 
@@ -57,6 +59,7 @@ main{
         width: 280px;
         height: 565px;
         background:url('../imagens/frame-iphone-tela-iphone5.png') no-repeat;
+        z-index: 11;
       }
     }
 
@@ -69,5 +72,30 @@ main{
         width: 230px;
         height: 465px;
         background:url('../imagens/frame-iphone-telamenor.png') no-repeat;
+        z-index: 11;
       }
     }
+
+    div#fundo{
+        width: 370px;
+        height: 801px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        background-color: #303030;
+        background-image: linear-gradient(180deg, #303030 0%, #202020 84%);
+        background-repeat: no-repeat;
+        z-index: 10;
+    }
+
+    /*iframe#tela{
+      position: relative;
+      top: 19px;
+      left: 24px;
+      width: 370px;
+      height: 811px;
+      :4;
+      image
+    }*/
